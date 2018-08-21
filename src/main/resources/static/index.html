@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+<h2>타임라인 등</h2>
+<p>솔직한 나의 이야기를 적어주세요.</p>
+<div class="card" style="width:400px">
+    <img class="card-img-top" src="" style="width:100%">
+    <div class="card-body">
+        <input type="text" name="contents" class="card-text"> <br/><br/>
+        <input type="file" name="image" class="btn btn-primary" id="btnImageUpload">
+        <button type="button" id="btnDeleteImage" class="btn btn-danger invisible">삭제</button>
+        <input type="button" id="btnSubmit" value="저장">
+    </div>
+</div>
+<br>
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script type="module" src="/js/timeline/create.js"></script>
+</body>
+</html>
